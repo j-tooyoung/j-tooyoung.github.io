@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://j-tooyoung.github.io</id>
     <title>Gridea</title>
-    <updated>2020-12-19T01:45:03.749Z</updated>
+    <updated>2020-12-19T01:48:57.331Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://j-tooyoung.github.io"/>
     <link rel="self" href="https://j-tooyoung.github.io/atom.xml"/>
@@ -10,6 +10,46 @@
     <logo>https://j-tooyoung.github.io/images/avatar.png</logo>
     <icon>https://j-tooyoung.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[manim安装]]></title>
+        <id>https://j-tooyoung.github.io/post/manim-an-zhuang/</id>
+        <link href="https://j-tooyoung.github.io/post/manim-an-zhuang/">
+        </link>
+        <updated>2020-12-19T01:47:32.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="manim-安装教程参考">manim 安装教程参考</h3>
+<p><a href="https://www.zhihu.com/question/57357012">https://www.zhihu.com/question/57357012</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/82620463">https://zhuanlan.zhihu.com/p/82620463</a></p>
+<p><a href="https://www.bilibili.com/read/cv2282855?from=articleDetail">https://www.bilibili.com/read/cv2282855?from=articleDetail</a></p>
+<p><a href="https://blog.csdn.net/txwhhny/article/details/89668750">https://blog.csdn.net/txwhhny/article/details/89668750</a></p>
+<h3 id="安装软件">安装软件</h3>
+<ul>
+<li>manim本体：https://github.com/3b1b/manim</li>
+<li>miktex: https://miktex.org/download</li>
+<li>ffmpeg：http://ffmpeg.org  bin目录添加环境变量</li>
+<li>dvisvgm：https://sourceforge.net/projects/dvisvgm/  添加环境变量</li>
+</ul>
+<h3 id="python依赖包">python依赖包</h3>
+<p>使用pip安装依赖，建议添加镜像源</p>
+<ul>
+<li>
+<p>pycairo  <a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/#pycairo">https://www.lfd.uci.edu/~gohlke/pythonlibs/#pycairo</a></p>
+<p>​			cp38对应的是python3.8版，cp对应3.7</p>
+<p>​			pip install pycares‑3.1.1‑cp37‑cp37m‑win_amd64.whl</p>
+</li>
+<li>
+<p>其余依赖包，切换到manim安装目录，pip install  -r requirements.txt</p>
+</li>
+</ul>
+<h3 id="运行例子">运行例子</h3>
+<pre><code>python manim.py example_scenes.py SquareToCircle -pl
+</code></pre>
+<h3 id="使用教程">使用教程</h3>
+<p><a href="https://zhuanlan.zhihu.com/c_1041689010053341184">https://zhuanlan.zhihu.com/c_1041689010053341184</a></p>
+<p><a href="https://www.bilibili.com/read/cv2539928">https://www.bilibili.com/read/cv2539928</a></p>
+<p><a href="https://github.com/cai-hust/manim-tutorial-CN">https://github.com/cai-hust/manim-tutorial-CN</a></p>
+<p><a href="https://www.bilibili.com/video/av64023740/">https://www.bilibili.com/video/av64023740/</a>  视频教程</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://j-tooyoung.github.io/post/hello-gridea/</id>
